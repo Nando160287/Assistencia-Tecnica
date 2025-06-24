@@ -8,4 +8,115 @@ header{
     color: white;
     padding: 20px;    
 }
+nav .menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;    
+}
+
+.menu li{
+    position: relative;
+    margin: 0 15px;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: color 0.3s;
+}
+
+.menu a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background: #0079f2;
+    top: 40px;
+    min-width: 160px;
+    background-color: #303dd0;
+    padding: 0;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.submenu li a{
+    padding: 10px;
+    color: white;
+    
+}
+.submenu li a:hover{
+    background-color: #005bea;
+}
+
+.menu-item{
+    display: block;
+}
+
+main{
+    padding: 30px;
+    text-align: center;
+}
+section{
+    margin: 40px 0;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;    
+}
   
+
+
+ul li{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+formbutton{
+    padding: 10px;
+    background-color:#005bea;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+formbutton:hover{
+    background-color: #0040a0;
+}
+
+
+footer{
+    background-color: #005bea;
+    color: white;
+    text-align: center;
+    padding: 10px;   
+}
+
+h2{
+    color:#333;    
+}
