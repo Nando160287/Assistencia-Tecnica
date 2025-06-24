@@ -1,0 +1,11 @@
+body{
+    background: linear-gradient(to bottom, #1adbc1, #303dd0);     
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    color: white;
+    padding: 20px;    
+}
+  
